@@ -1,0 +1,13 @@
+prefix=C:/Users/Prasanna Kulkarni/Desktop/KrishNaik Online lectures/Agentic AI/2024-29-12PhiData/venv/Library
+exec_prefix=C:/Users/Prasanna Kulkarni/Desktop/KrishNaik Online lectures/Agentic AI/2024-29-12PhiData/venv/Library
+libdir=C:/Users/Prasanna Kulkarni/Desktop/KrishNaik Online lectures/Agentic AI/2024-29-12PhiData/venv/Library/lib
+sharedlibdir=C:/Users/Prasanna Kulkarni/Desktop/KrishNaik Online lectures/Agentic AI/2024-29-12PhiData/venv/Library/lib
+includedir=C:/Users/Prasanna Kulkarni/Desktop/KrishNaik Online lectures/Agentic AI/2024-29-12PhiData/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
